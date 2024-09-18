@@ -1,0 +1,11 @@
+# Exported from Render on 2024-09-18T18:59:42Z
+services:
+- type: web
+  name: elphael-homepage
+  runtime: static
+  repo: https://github.com/allenhouchins/elphael-homepage
+  staticPublishPath: .
+  domains:
+  - elphael.com
+  - www.elphael.com
+version: "1"
